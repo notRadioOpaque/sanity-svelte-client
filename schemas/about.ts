@@ -15,6 +15,11 @@ const about = {
       type: 'string',
     },
     {
+      name: 'role',
+      title: 'Role',
+      type: 'string',
+    },
+    {
       name: 'resumeLink',
       title: 'Resume Link',
       type: 'string',
