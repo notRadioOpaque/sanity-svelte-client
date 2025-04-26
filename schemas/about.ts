@@ -4,14 +4,13 @@ const about = {
   type: 'document',
   fields: [
     {
-      name: 'image',
-      title: 'Profile Image',
-      type: 'image',
-      options: {hotspot: true},
-    },
-    {
       name: 'email',
       title: 'Email',
+      type: 'string',
+    },
+    {
+      name: 'image',
+      title: 'Profile Image',
       type: 'string',
     },
     {
@@ -54,8 +53,12 @@ const about = {
             {
               name: 'icon',
               title: 'Icon (Optional)',
-              type: 'image',
-              options: {hotspot: true},
+              type: 'string',
+            },
+            {
+              name: 'url',
+              title: 'URL',
+              type: 'string',
             },
           ],
         },

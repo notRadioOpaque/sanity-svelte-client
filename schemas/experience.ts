@@ -8,7 +8,8 @@ const experience = {
     {name: 'startDate', title: 'Start Date', type: 'date'},
     {name: 'endDate', title: 'End Date', type: 'date'},
     {name: 'description', title: 'Description', type: 'text'},
-    {name: 'icon', title: 'Icon', type: 'image'},
+    {name: 'icon', title: 'Icon', type: 'string'},
+    {name: 'link', title: 'Link', type: 'string'},
   ],
 }
 
