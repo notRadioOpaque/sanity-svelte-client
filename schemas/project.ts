@@ -6,8 +6,7 @@ const project = {
     {
       name: 'coverImage',
       title: 'Cover Image',
-      type: 'image',
-      options: {hotspot: true},
+      type: 'string',
     },
     {
       name: 'projectTitle',
@@ -58,7 +57,7 @@ const project = {
       name: 'otherImages',
       title: 'Gallery / Additional Images',
       type: 'array',
-      of: [{type: 'image', options: {hotspot: true}}],
+      of: [{type: 'string'}],
     },
     {
       name: 'challenges',
