@@ -28,8 +28,7 @@ const project = {
     {
       name: 'description',
       title: 'Full Description',
-      type: 'array',
-      of: [{type: 'block'}],
+      type: 'string',
     },
     {
       name: 'links',
